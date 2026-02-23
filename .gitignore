@@ -1,9 +1,6 @@
 # Ignore local secrets
 .streamlit/secrets.toml
 
-# Ignore local data if it's sensitive
-data/temp_file.csv
-
 # Ignore Python cache
 __pycache__/
 .DS_Store
