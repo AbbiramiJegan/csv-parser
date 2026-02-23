@@ -2,6 +2,8 @@
 
 An end-to-end, fully local Edge AI application designed for industrial quality control. This project leverages an **NVIDIA Jetson Orin Nano**, **Ollama**, **Langflow**, and **Streamlit** to analyze live wood defect scanner data and provide a conversational AI assistant all without sending a single byte of data to the cloud.
 
+![Streamlit Dashboard showing Wood Quality Control Center](images/streamlit.jpeg)
+
 ## ✨ Features
 * **100% Local Processing:** Zero cloud costs and complete data privacy.
 * **Live Data Monitoring:** A responsive Streamlit dashboard highlighting high-severity defects in real-time.
@@ -13,6 +15,8 @@ An end-to-end, fully local Edge AI application designed for industrial quality c
 * **Local LLM:** [Ollama](https://ollama.ai/) running the lightweight `granite3.1-moe:1b-instruct-q8_0` model.
 * **Backend logic:** [Langflow](https://langflow.org/) (REST API).
 * **Frontend:** [Streamlit](https://streamlit.io/) (Python).
+
+![Langflow AI Pipeline Architecture](images/langflow.jpeg)
 
 ## 📂 Repository Structure
 ```text
@@ -36,6 +40,8 @@ wood-quality-control/
 You will need an NVIDIA Jetson (or any machine capable of running local LLMs) and a machine to run the Streamlit frontend (this can be the same Jetson device or a separate laptop on the same local network).
 
 ### 2. Backend Setup (on the Jetson Orin Nano)
+
+(images/cmd.jpeg)
 
 SSH into your edge device:
 
