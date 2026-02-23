@@ -1,0 +1,7 @@
+ID,Date,Item_Type,Defect_Detected,Severity,Confidence_Score,Processed_By
+101,2026-02-01,Pine_Plank,Knot,Low,0.92,AI_Scanner_01
+102,2026-02-01,Oak_Beam,Split,High,0.88,AI_Scanner_02
+103,2026-02-02,Pine_Plank,None,N/A,0.98,AI_Scanner_01
+104,2026-02-02,Cedar_Panel,Wane,Medium,0.75,AI_Scanner_01
+105,2026-02-03,Oak_Beam,Knot,Low,0.94,AI_Scanner_02
+106,2026-02-03,Pine_Plank,Split,High,0.81,AI_Scanner_01
