@@ -41,7 +41,7 @@ You will need an NVIDIA Jetson (or any machine capable of running local LLMs) an
 
 ### 2. Backend Setup (on the Jetson Orin Nano)
 
-(images/cmd.jpeg)
+![Backend Architecture](images/cmd.jpeg)
 
 SSH into your edge device:
 
