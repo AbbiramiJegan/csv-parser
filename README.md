@@ -1,6 +1,6 @@
 # 🪵 Edge AI Wood Quality Control Center
 
-An end-to-end, fully local Edge AI application designed for industrial quality control. This project leverages an **NVIDIA Jetson Orin Nano**, **Ollama**, **Langflow**, and **Streamlit** to analyze live wood defect scanner data and provide a conversational AI assistant—all without sending a single byte of data to the cloud.
+An end-to-end, fully local Edge AI application designed for industrial quality control. This project leverages an **NVIDIA Jetson Orin Nano**, **Ollama**, **Langflow**, and **Streamlit** to analyze live wood defect scanner data and provide a conversational AI assistant all without sending a single byte of data to the cloud.
 
 ## ✨ Features
 * **100% Local Processing:** Zero cloud costs and complete data privacy.
